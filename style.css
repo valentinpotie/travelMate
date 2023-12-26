@@ -71,7 +71,8 @@ button {
     width: 50%;
     background-color: rgba(59,128,117,255);
     background-image: linear-gradient();
-    font-size: calc(.15rem + 1.7vh)
+    font-size: calc(.15rem + 1.7vh);
+    color: rgba(246,237,222,255);
 }
 
 .box {
