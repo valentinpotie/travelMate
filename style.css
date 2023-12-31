@@ -116,3 +116,9 @@ button {
   color: rgba(246,237,222,255);
   text-decoration: underline;
 }
+
+@media only screen and (max-width: 768px) {
+  #joinUs {
+      display: none;
+  }
+}
