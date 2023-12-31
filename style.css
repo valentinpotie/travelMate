@@ -42,12 +42,9 @@
 }
 
 h1 {
-    text-align: center;
-    
+    text-align: center;   
 }
 
-p {
-}
 
 input {
     border-radius: 8px;
@@ -85,6 +82,37 @@ button {
 }
 
 .logo {
-  height: 50px;
-  width: 50px;
+  height: 60px;
+  width: 60px;
+}
+
+.facebook-cta {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px;
+}
+
+.facebook-cta span {
+  font-size: 1rem;
+  color: #ffffff;
+}
+
+.facebook-logo {
+  height: 33px;
+  width: auto;
+}
+
+#logoDiv {
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+
+#joinUs {
+  color: rgba(246,237,222,255);
+  text-decoration: underline;
 }
